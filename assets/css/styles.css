@@ -1,0 +1,181 @@
+html, body{
+	font-size:16px;
+	color: #dfdfdf;
+	background-color: #063647; 
+}
+
+a {
+  color: #00d1b2;
+}
+
+a:hover {
+  color: #00d1b2;
+}
+
+section{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.section-1 {
+	background: #063647;
+}
+
+.section-2 {
+	background-color: #052D3D;
+}
+
+.section-3 {
+	background-color: #063647;
+}
+
+.section-4 {
+	background-color: #063647;
+	padding: 0.2rem;
+}
+
+a.nav-item {
+	color: #dfdfdf;
+}
+
+a.nav-item:hover {
+	color: #fff;
+}
+
+.avatar{
+	height:200px;
+	border-radius: 50%;
+}
+
+.intro-description{
+	padding-top: 1rem;
+}
+
+.social-container img{
+	max-width:100%;
+	max-height:175px;
+	margin-bottom:15px;
+}
+
+.project-figure {
+	margin: 0 auto 1rem auto;
+	max-height: 256px;
+	max-width: 256px;
+}
+
+.project-text {
+	text-align: justify;
+}
+
+.box {
+	background-color: transparent;
+	border: 2px solid rgba(7, 59, 79, 0.5);
+}
+
+.title {
+	color: #fff;
+	text-align: left;
+	margin-bottom: 2rem;
+}
+
+.intro {
+	text-align: justify;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.void-background {
+	background-color: transparent; 
+}
+
+@media screen and (max-width: 768px) {
+	.nav-menu {
+		background-color: #063647;
+	}
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #dfdfdf;
+	}
+
+	.nav-toggle span:hover {
+		background-color: #fff;
+	}
+
+}
+
+/*bouton*/
+a
+{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+a:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+.buttonprofile {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+  }
+  
+  .buttonprofile {border-radius: 50%;}
+/* contact */
+ 
+  .contact-section{
+	background: #063647;
+	padding: 80px 0;
+	text-align: center;
+  }
+  
+  
+  .contact-section h1{
+	font-size: 20px;
+	color: #888;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 400;
+  }
+  
+ 
+  
+  .contact-section button{
+	background: none;
+	color: #70a1ff;
+	border: 1px solid #70a1ff;
+	padding: 12px 40px;
+	border-radius: 8px;
+	text-transform: uppercase;
+	font-size: 14px;
+	transition: 0.4s linear;
+	cursor: pointer;
+  }
+
+  /* Fin contact */
+  
+  @media screen and (max-width:600px){
+	.name,.email{
+	  width: 100%;
+	}
+  }  
