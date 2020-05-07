@@ -91,9 +91,8 @@ a.nav-item:hover {
 	.nav-menu {
 		background-color: #063647;
 	}
-
 	.nav-toggle:hover {
-		background-color: transparent;
+		background-color: #2196f3;
 	}
 
 	.nav-toggle span {
